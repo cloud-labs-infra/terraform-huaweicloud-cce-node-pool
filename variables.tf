@@ -185,7 +185,7 @@ variable "taints" {
 variable "root_volume" {
   description = <<DES
   Specifies the configuration of the system disk:
-  * `size`- Specifies the disk size in GB;
+  * `size`- Specifies the disk size in GB, root volume size must between 40 and 1024;
   * `volumetype` - Specifies the disk type;
   * `extend_params` - Specifies the disk expansion parameters.
   DES
@@ -199,7 +199,7 @@ variable "root_volume" {
 variable "data_volume" {
   description = <<DES
   Specifies the configuration of the data disks:
-  * `size`- Specifies the disk size in GB;
+  * `size`- Specifies the disk size in GB, data volume size must between 100 and 32768;
   * `volumetype` - Specifies the disk type;
   * `extend_params` - Specifies the disk expansion parameters.
   DES
