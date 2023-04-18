@@ -1,1 +1,1 @@
-# Module name
+# Huawei Cloud Container Engine Node Pool
