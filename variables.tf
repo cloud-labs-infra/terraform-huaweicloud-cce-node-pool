@@ -92,7 +92,6 @@ variable "postinstall" {
   default     = null
 }
 
-
 variable "extend_param" {
   description = <<DES
   Specifies the extended parameter. The available keys are as follows:
@@ -197,7 +196,7 @@ variable "root_volume" {
   })
 }
 
-variable "data_volumes" {
+variable "data_volume" {
   description = <<DES
   Specifies the configuration of the data disks:
   * `size`- Specifies the disk size in GB;
