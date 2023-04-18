@@ -13,7 +13,7 @@ resource "huaweicloud_cce_node_pool" "main" {
   initial_node_count       = var.initial_node_count
   flavor_id                = var.flavor_id
   type                     = var.type
-  availability_zone        = var.availability_zone == null ? slice(data.huaweicloud_availability_zones.zones.names, 0, 1) : var.availability_zone
+  availability_zone        = var.availability_zone == null ? element(data.huaweicloud_availability_zones.zones.names, 0) : var.availability_zone
   os                       = var.os
   key_pair                 = var.key_pair
   password                 = null
@@ -50,9 +50,9 @@ resource "huaweicloud_cce_node_pool" "main" {
   }
 
   data_volumes {
-    size          = var.data_volumes.size
-    volumetype    = var.data_volumes.volumetype
-    extend_params = var.data_volumes.extend_params
+    size          = var.data_volume.size
+    volumetype    = var.data_volume.volumetype
+    extend_params = var.data_volume.extend_params
     kms_key_id    = var.kms_key_id
   }
 
