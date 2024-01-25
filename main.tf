@@ -25,7 +25,7 @@ resource "huaweicloud_cce_node_pool" "main" {
   extend_param             = var.extend_param
   scall_enable             = var.scall_enable
   min_node_count           = var.scall_enable ? var.min_node_count : null
-  max_node_count           = var.scall_enable ? var.min_node_count : null
+  max_node_count           = var.scall_enable ? var.max_node_count : null
   scale_down_cooldown_time = var.scall_enable ? var.scale_down_cooldown_time : null
   priority                 = var.scall_enable ? var.priority : null
   security_groups          = var.security_groups
