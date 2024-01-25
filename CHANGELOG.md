@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+### [1.0.2](https://github.com/cloud-labs-infra/terraform-huaweicloud-cce-node-pool/compare/v1.0.1...v1.0.2) (2024-01-25)
+
+
+### Bug Fixes
+
+* Set correct value for max_node_count ([#7](https://github.com/cloud-labs-infra/terraform-huaweicloud-cce-node-pool/issues/7)) ([d9340e7](https://github.com/cloud-labs-infra/terraform-huaweicloud-cce-node-pool/commit/d9340e7969fc027c113c89405d204e221bd3c9c6))
+
 ### [1.0.1](https://github.com/cloud-labs-infra/terraform-huaweicloud-cce-node-pool/compare/v1.0.0...v1.0.1) (2023-04-18)
 
 
