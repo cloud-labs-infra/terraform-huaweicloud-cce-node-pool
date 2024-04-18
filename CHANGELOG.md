@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.0](https://github.com/cloud-labs-infra/terraform-huaweicloud-cce-node-pool/compare/v1.0.2...v1.1.0) (2024-04-18)
+
+
+### Features
+
+* Update version of tf and providers ([#8](https://github.com/cloud-labs-infra/terraform-huaweicloud-cce-node-pool/issues/8)) ([7862b24](https://github.com/cloud-labs-infra/terraform-huaweicloud-cce-node-pool/commit/7862b244ea6fffd744e1a5aed1b74df4131b5ee3))
+
 ### [1.0.2](https://github.com/cloud-labs-infra/terraform-huaweicloud-cce-node-pool/compare/v1.0.1...v1.0.2) (2024-01-25)
 
 
